@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char objcCollectionViewVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcCollectionView/PublicHeader.h>
 
-
+#import <objcCollectionView/UICollectionViewCell+VDRegister.h>
+#import <objcCollectionView/UICollectionViewCell+VDDequeue.h>

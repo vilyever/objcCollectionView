@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE64044F1D54649C00652BAC /* objcCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64044E1D54649C00652BAC /* objcCollectionView.h */; };
+		FE64044F1D54649C00652BAC /* objcCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64044E1D54649C00652BAC /* objcCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6404561D54649C00652BAC /* objcCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64044B1D54649C00652BAC /* objcCollectionView.framework */; };
 		FE64045B1D54649C00652BAC /* objcCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64045A1D54649C00652BAC /* objcCollectionViewTests.m */; };
+		FE6404681D5464B100652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6404651D5464B100652BAC /* Cartfile */; };
+		FE6404691D5464B100652BAC /* objcCollectionView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6404661D5464B100652BAC /* objcCollectionView.podspec */; };
+		FE64046D1D5464F600652BAC /* UICollectionViewCell+VDRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64046B1D5464F600652BAC /* UICollectionViewCell+VDRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE64046E1D5464F600652BAC /* UICollectionViewCell+VDRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64046C1D5464F600652BAC /* UICollectionViewCell+VDRegister.m */; };
+		FE6404711D54653A00652BAC /* UICollectionViewCell+VDDequeue.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64046F1D54653A00652BAC /* UICollectionViewCell+VDDequeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6404721D54653A00652BAC /* UICollectionViewCell+VDDequeue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6404701D54653A00652BAC /* UICollectionViewCell+VDDequeue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 		FE6404551D54649C00652BAC /* objcCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64045A1D54649C00652BAC /* objcCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcCollectionViewTests.m; sourceTree = "<group>"; };
 		FE64045C1D54649C00652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6404651D5464B100652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6404661D5464B100652BAC /* objcCollectionView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcCollectionView.podspec; sourceTree = "<group>"; };
+		FE6404671D5464B100652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE64046B1D5464F600652BAC /* UICollectionViewCell+VDRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+VDRegister.h"; sourceTree = "<group>"; };
+		FE64046C1D5464F600652BAC /* UICollectionViewCell+VDRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+VDRegister.m"; sourceTree = "<group>"; };
+		FE64046F1D54653A00652BAC /* UICollectionViewCell+VDDequeue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+VDDequeue.h"; sourceTree = "<group>"; };
+		FE6404701D54653A00652BAC /* UICollectionViewCell+VDDequeue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+VDDequeue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,9 @@
 				FE64044D1D54649C00652BAC /* objcCollectionView */,
 				FE6404591D54649C00652BAC /* objcCollectionViewTests */,
 				FE64044C1D54649C00652BAC /* Products */,
+				FE6404651D5464B100652BAC /* Cartfile */,
+				FE6404661D5464B100652BAC /* objcCollectionView.podspec */,
+				FE6404671D5464B100652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +89,10 @@
 			children = (
 				FE64044E1D54649C00652BAC /* objcCollectionView.h */,
 				FE6404501D54649C00652BAC /* Info.plist */,
+				FE64046B1D5464F600652BAC /* UICollectionViewCell+VDRegister.h */,
+				FE64046C1D5464F600652BAC /* UICollectionViewCell+VDRegister.m */,
+				FE64046F1D54653A00652BAC /* UICollectionViewCell+VDDequeue.h */,
+				FE6404701D54653A00652BAC /* UICollectionViewCell+VDDequeue.m */,
 			);
 			path = objcCollectionView;
 			sourceTree = "<group>";
@@ -93,6 +113,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6404711D54653A00652BAC /* UICollectionViewCell+VDDequeue.h in Headers */,
+				FE64046D1D5464F600652BAC /* UICollectionViewCell+VDRegister.h in Headers */,
 				FE64044F1D54649C00652BAC /* objcCollectionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6404691D5464B100652BAC /* objcCollectionView.podspec in Resources */,
+				FE6404681D5464B100652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6404721D54653A00652BAC /* UICollectionViewCell+VDDequeue.m in Sources */,
+				FE64046E1D5464F600652BAC /* UICollectionViewCell+VDRegister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
